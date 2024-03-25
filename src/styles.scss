@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     background-color: silver;
+    margin: 10px;
+    border: 10px;
+}
+p{
+    color: aqua;
+}
+.grid-container{
+    height: 90vh;
+    background-color: gray;
+}
+.nav-bar{
+    height: 90vh;
 }
