@@ -4,13 +4,24 @@ body{
     margin: 10px;
     border: 10px;
 }
-p{
+p,li{
     color: aqua;
+    font-size: 3vh;
 }
 .grid-container{
-    height: 90vh;
+    height: 100vh;
+    position: relative;
     background-color: gray;
 }
 .nav-bar{
+    position: absolute;
     height: 90vh;
+    width: 20vw;
+    background-color: rgba($color: #929292, $alpha: 1.0);
+}
+.students-page{
+    height: 90vh;
+    padding-left: 20vw;
+    background-color: rgb(51, 47, 47);
+    text-align: center;
 }
