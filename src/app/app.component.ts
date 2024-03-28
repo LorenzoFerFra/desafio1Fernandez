@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Desafio1';
+  title = 'Desafio2';
+  aprobado = false; 
+  cambioAprobar(){
+    this.aprobado = !this.aprobado;
+  }
 }

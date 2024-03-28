@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './students-page.component.scss'
 })
 export class StudentsPageComponent {
-
+  aprobado = false; 
+  estudiante = [{ nombre: 'Mario', aprobado: true }];
+  cambioAprobar(){
+    this.aprobado = !this.aprobado;
+  }
+  
 }

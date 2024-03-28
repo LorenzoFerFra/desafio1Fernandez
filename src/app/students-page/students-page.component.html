@@ -1,5 +1,15 @@
 <ul>
-    <li>Mario</li>
+    <li>Mario 
+        <button 
+        [ngClass]="{
+            exito: !aprobado,
+            error: aprobado
+          }"
+            [ngStyle]="{
+                'text-decoration': aprobado ? 'underline' : 'unset',
+                'font-weight': aprobado ? 700 : 400
+              }"
+         (click)="cambioAprobar"></button></li>
     <li>Donkey Kong</li>
     <li>Yoshi</li>
     <li>Kirby</li>
