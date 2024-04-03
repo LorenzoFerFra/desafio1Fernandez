@@ -7,9 +7,15 @@ import { Component } from '@angular/core';
 })
 export class StudentsPageComponent {
   aprobado = true; 
-  estudiante = [{ nombre: 'Mario', aprobado: true }];
+  mostrarListado = false;
+  students = [{ nombre: 'Mario', aprobado: true },{ nombre: 'Kirby', aprobado: true },{ nombre: 'Dk', aprobado: true },{ nombre: 'Pikachu', aprobado: true }];
   cambioAprobar(){
     this.aprobado = !this.aprobado;
   }
-  
+  mostrarNombre(){
+    this.aprobado = !this.aprobado;
+  }
+  cambioAprobar2(){
+    this.aprobado = !this.aprobado;
+  }
 }
